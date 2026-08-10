@@ -1,0 +1,11 @@
+{
+  "profile": "high-autonomy",
+  "approvalTtlMinutes": 30,
+  "rules": [
+    {
+      "outcome": "ask",
+      "effects": ["publish", "delete"],
+      "reason": "External publication and destructive actions remain operator-owned."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@openclaw/workbench-guardrails",
+  "version": "2026.7.2",
+  "private": true,
+  "description": "Workbench safety profiles, approvals, and redacted execution journaling for OpenClaw",
+  "type": "module",
+  "peerDependencies": {
+    "openclaw": ">=2026.7.2"
+  },
+  "peerDependenciesMeta": {
+    "openclaw": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@openclaw/plugin-sdk": "workspace:*",
+    "openclaw": "workspace:*"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

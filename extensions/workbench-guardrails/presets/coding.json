@@ -1,0 +1,11 @@
+{
+  "profile": "coding",
+  "approvalTtlMinutes": 60,
+  "rules": [
+    {
+      "outcome": "ask",
+      "effects": ["publish", "delete"],
+      "reason": "Publishing and deletion remain operator-owned."
+    }
+  ]
+}

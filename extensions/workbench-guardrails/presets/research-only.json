@@ -1,0 +1,5 @@
+{
+  "profile": "research-only",
+  "approvalTtlMinutes": 30,
+  "rules": []
+}

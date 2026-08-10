@@ -1,0 +1,5 @@
+{
+  "profile": "personal-safe",
+  "approvalTtlMinutes": 60,
+  "rules": []
+}
